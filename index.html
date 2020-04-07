@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Javascript</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div>
+        <button onclick='handlers.toggleAll()'>Toggle All</button>
+    </div>
+    <div>
+        <button onclick='handlers.addToDo()'>Add</button>
+        <input id='addToDoText' type='text' placeholder='Type in your To Do here'>
+    </div>
+    <div>
+        <button onclick='handlers.changeToDo()'>Change To Do</button>    
+        <input id='changeToDoIndexInput' type='number' placeholder='Pick the current position'>
+        <input id='changeToDoTextInput' type='text' placeholder='Type your new To Do here'>
+    </div>
+    <div>
+        <button onclick='handlers.toggleCompleted()'>Toggle Completed</button>
+        <input id='toggleCompletedIndex' type='number' placeholder='Pick a position'>
+    </div>
+    <ul></ul>
+    <script src = index.js>
+    </script>
+</body>
+</html>
